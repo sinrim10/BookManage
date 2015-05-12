@@ -1,0 +1,90 @@
+package com.buch.publisher.model;
+
+import java.util.Date;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+import lombok.Data;
+
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.NotEmpty;
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.format.annotation.DateTimeFormat.ISO;
+
+
+@Data
+public class PublisherVo {
+	
+	private String pubCd;
+	private String pubGb;
+	private String pubNm;
+	private String busiNo;
+	private String busiPresident;
+	
+	private String busiTel;
+	private String busiFax;
+	private String busiZip;
+	private String busiAddr1;
+	private String busiAddr2;
+	
+	private String busiIndustry;
+	private String busiItem;
+	private String taxGb;
+	private String billType;
+	private String dealType;
+	@DateTimeFormat(iso= ISO.DATE)
+	private Date closeDt; //폐점일
+	private String busiDelivery;
+	@NotEmpty(message = "- 이메일을 입력하세요")
+	private String busiEmail;
+	@DateTimeFormat(iso= ISO.DATE)
+	private Date sttlementDt; //결재일
+	
+	private String useYn;
+	private String regId;
+	@DateTimeFormat(iso= ISO.DATE)
+	private Date  regDt;
+	private String modId;
+	private Date  modDt;
+	public PublisherVo() {
+		// TODO Auto-generated constructor stub
+		//2013.12.21 [이성규]화면에 오늘날짜로 셋팅. Start
+		Calendar today = new GregorianCalendar();
+		today.set(today.get(Calendar.YEAR), today.get(Calendar.MONTH),today.get(Calendar.DATE),0 ,0 ,0);
+		closeDt = today.getTime();
+		sttlementDt = today.getTime();
+		regDt = today.getTime();
+		this.setRegId("ADMIN");
+		//2013.12.21 [이성규]화면에 오늘날짜로 셋팅. End
+	}
+	public PublisherVo(String pubCd,String pubNm,String busiPresident
+			,String busiTel,String busiFax,String busiZip,String busiAddr1){
+		this.pubCd = pubCd;
+		this.pubNm = pubNm;
+		this.busiPresident = busiPresident;
+		this.busiTel = busiTel;
+		this.busiFax = busiFax;
+		this.busiZip = busiZip;
+		this.busiAddr1 = busiAddr1;
+	}	
+	
+
+	@Override
+	public String toString() {
+		return "PublisherVo [pubCd=" + pubCd + ", pubGb=" + pubGb + ", pubNm="
+				+ pubNm + ", busiNo=" + busiNo + ", busiPresident="
+				+ busiPresident + ", busiTel=" + busiTel + ", busiFax="
+				+ busiFax + ", busiZip=" + busiZip + ", busiAddr1=" + busiAddr1
+				+ ", busiAddr2=" + busiAddr2 + ", busiIndustry=" + busiIndustry
+				+ ", busiItem=" + busiItem + ", taxGb=" + taxGb + ", billType="
+				+ billType + ", dealType=" + dealType + ", closeDt=" + closeDt
+				+ ", busiDelivery=" + busiDelivery + ", busiEmail=" + busiEmail
+				+ ", sttlementDt=" + sttlementDt + ", useYn=" + useYn
+				+ ", regId=" + regId + ", regDt=" + regDt + ", modId=" + modId
+				+ ", modDt=" + modDt + "]";
+	}
+	
+	
+	
+
+}

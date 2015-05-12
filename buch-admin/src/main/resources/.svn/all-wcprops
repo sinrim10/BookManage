@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/onmart/!svn/ver/39/buch-admin/src/main/resources
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/onmart/!svn/ver/7/buch-admin/src/main/resources/log4j.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/onmart/!svn/ver/7/buch-admin/src/main/resources/log4j.properties
+END
+dao-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/onmart/!svn/ver/8/buch-admin/src/main/resources/dao-context.xml
+END

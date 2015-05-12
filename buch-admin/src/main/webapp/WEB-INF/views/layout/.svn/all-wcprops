@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/onmart/!svn/ver/16/buch-admin/src/main/webapp/WEB-INF/views/layout
+END
+layout_pub.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/onmart/!svn/ver/8/buch-admin/src/main/webapp/WEB-INF/views/layout/layout_pub.jsp
+END
+layout_ord.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/onmart/!svn/ver/7/buch-admin/src/main/webapp/WEB-INF/views/layout/layout_ord.jsp
+END
+layout_main.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/onmart/!svn/ver/16/buch-admin/src/main/webapp/WEB-INF/views/layout/layout_main.jsp
+END

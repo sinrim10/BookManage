@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid
+END
+grid.tbltogrid.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/grid.tbltogrid.js
+END
+jquery.fmatter.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/jquery.fmatter.js
+END
+grid.formedit.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/grid.formedit.js
+END
+grid.celledit.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/grid.celledit.js
+END
+grid.common.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/grid.common.js
+END
+JsonXml.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/JsonXml.js
+END
+grid.inlinedit.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/grid.inlinedit.js
+END
+grid.import.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/grid.import.js
+END
+grid.treegrid.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/grid.treegrid.js
+END
+grid.grouping.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/grid.grouping.js
+END
+jqModal.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/jqModal.js
+END
+jqDnR.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/jqDnR.js
+END
+grid.filter.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/grid.filter.js
+END
+grid.subgrid.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/grid.subgrid.js
+END
+jquery.jqGrid.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/jquery.jqGrid.js
+END
+grid.jqueryui.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/grid.jqueryui.js
+END
+grid.custom.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/grid.custom.js
+END
+grid.base.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/onmart/!svn/ver/37/buch-admin/src/main/webapp/resources/js/jqgrid/grid.base.js
+END
